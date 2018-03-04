@@ -5,12 +5,14 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title></title>
   </head>
 
   <body>
-    <h1> Roll Piggy, Roll</h1>
-    <p> A Game of Dice </p>
+    <h1> PIG<br>A Game of Dice </h1>
 
     <div class="container1">
       <div class="row">
@@ -23,16 +25,14 @@
       </div>
     </div>
 
-    <div class="roller">
-      <h2> Let's Roll...</h2>
-      <p>You need 2 players. Choose a player to go first. Player 1 rolls the dice and scores as many points as the total shown in the box. If the player rolls a 1 his turn is over, he loses all points he accumulated that turn, and he passes the die to the
-        next player. To To avoid rolling a 1 you can stop your turn at any time by clicking 'pause' (you will retain any points you have accumulated up to then) and letting Player 2 continue. The game passes from player to player until a winner is determined.</p>
-    </div>
-    </div>
-    </div>
-    </div>
+    <div class="container">
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Rules of the Game</button>
+      <div id="demo" class="collapse">
+        <p>A 2 player game. Player 1 rolls the dice and scores as many points as possible, shown in the total section. If the player rolls a 1 his turn is over and he loses all points he accumulated that turn. The next player has a turn.You can stop your
+          turn at any time by clicking 'pause' (you will retain any points you have accumulated up to then). The game passes from player to player. The first player to reach 100 wins.</p>
 
-
+      </div>
+    </div>
 
     <div class="container-fluid">
       <div class="row">
