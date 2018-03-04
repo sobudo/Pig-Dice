@@ -20,6 +20,12 @@
   cursor: pointer;
 }
 
+.intro {
+  text-align: center;
+  margin-right: 200px;
+  margin-left: -300px;
+}
+
 .container2 {
   margin-left: 600px;
 }
