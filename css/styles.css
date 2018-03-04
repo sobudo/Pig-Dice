@@ -65,11 +65,13 @@
 }
 
 h3 {
-  margin-left: 200px;
+  margin-left: 250px;
 }
 
 h1 {
   text-align: center;
+  color: #800000;
+  font-family: 'Raleway', sans-serif;
 }
 
 h2 {
