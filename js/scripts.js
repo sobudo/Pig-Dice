@@ -20,3 +20,16 @@ button.onclick = function() {
   var result = dice.roll();
   printNumber(result);
 };
+
+
+function printNumber1(number) {
+  var placeholder1 = document.getElementById('placeholder1');
+  placeholder1.innerHTML = number;
+}
+
+var button = document.getElementById('button1');
+
+button1.onclick = function() {
+  var result = dice.roll();
+  printNumber1(result);
+};
