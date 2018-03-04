@@ -37,7 +37,8 @@
   margin: 100px auto;
   margin-left: 350px;
   border: 5px solid #800000;
-  font-size: 80px;
+  font-size: 60px;
+  margin-top: 10px;
 }
 
 #placeholder1 {
@@ -48,16 +49,28 @@
   margin-left: 350px;
   border: 5px solid #800000;
   font-size: 60px;
+  margin-top: -25px;
 }
 
 #button {
   text-align: center;
   margin-left: 300px;
+  margin-top: -10px;
 }
 
 #button1 {
   text-align: center;
   margin-left: 300px;
+  margin-top: -10px;
+}
+
+h2 {
+  margin-left: 350px;
+  font-style: italic;
+}
+
+h4 {
+  margin-left: 800px;
 }
 
 .container1 {
@@ -74,23 +87,10 @@ h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-h2 {
-  text-align: center;
-}
-
 p {
   text-align: center;
 }
 
-.rotatified {
-  transform: rotate(360deg);
-}
-
-.roller {
-  border-style: outset;
-  border-width: 7px;
-  border-color: light blue;
-  margin-right: 100px;
-  margin-left: 200px;
-  margin-right: 200px;
+.surround {
+  border: 5px solid #800000;
 }

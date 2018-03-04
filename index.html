@@ -13,34 +13,46 @@
   </head>
 
   <body>
-    <div class="heading">
-      <h1> PIG<br>A Game of Dice </h1>
-    </div>
+    <div class="surround">
+      <div class="heading">
+        <h1> PIG<br>A Game of Dice </h1>
+      </div>
 
-    <div class="container1">
+
+      <div class="container1">
+        <div class="row">
+          <img src="images/pig.jpg" style="height:200px; width:280px;">
+          <!-- <img class="rotatified" src="images/pig.jpg" style="height:100px; width: 100px;"> -->
+          <img src="images/dice.gif" style="height:80px; width: 80px;">
+          <img src="images/dice.gif" style="height:60px; width: 60px;">
+          <img src="images/dice.gif" style="height:40px; width: 40px;">
+          <img src="images/dice.gif" style="height:20px; width: 20px;">
+        </div>
+      </div>
+
+      <div class="container2">
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Rules of the Game</button>
+        <div id="demo" class="collapse">
+          <p class="intro">A 2 player game. Player 1 rolls the dice and scores as many points as possible, shown in the total section. If the player rolls a 1 his turn is over and he loses all points he accumulated that turn. The next player has a turn.You can stop your
+            turn at any time by clicking 'pause' (you will retain any points you have accumulated up to then). The game passes from player to player. The first player to reach 100 wins.</p>
+
+        </div>
+      </div>
+
       <div class="row">
-        <img src="images/pig.jpg" style="height:200px; width:280px;">
-        <!-- <img class="rotatified" src="images/pig.jpg" style="height:100px; width: 100px;"> -->
-        <img src="images/dice.gif" style="height:80px; width: 80px;">
-        <img src="images/dice.gif" style="height:60px; width: 60px;">
-        <img src="images/dice.gif" style="height:40px; width: 40px;">
-        <img src="images/dice.gif" style="height:20px; width: 20px;">
-      </div>
-    </div>
+        <div class="col-md-5">
+          <h2>Player 1<h2>
+        </div>
+        <div class="col-md-5">
+            <h2>Player 2<h2>
+              </div>
+            </div>
 
-    <div class="container2">
-      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Rules of the Game</button>
-      <div id="demo" class="collapse">
-        <p class="intro">A 2 player game. Player 1 rolls the dice and scores as many points as possible, shown in the total section. If the player rolls a 1 his turn is over and he loses all points he accumulated that turn. The next player has a turn.You can stop your
-          turn at any time by clicking 'pause' (you will retain any points you have accumulated up to then). The game passes from player to player. The first player to reach 100 wins.</p>
-
-      </div>
-    </div>
-
-    <div class="main">
-      <div class="container-fluid">
+      <div class="main">
+        <div class="container-fluid">
         <div class="row">
           <div class="col-md-4">
+
             <p id="placeholder"></p>
             <button id="button">Roll Dice</button>
 
@@ -51,17 +63,18 @@
 
           </div>
 
-          <div class="col-md-4" style=style="position: absolute;" "text-align:left;">
+          <div class="col-md-4" style=style="position: absolute;">
             <p id="placeholder1"></p>
             <button id="button1">Roll Dice</button>
 
-            <div id="turnTotalStuff">
-              <h3>Total:</h3>
-              <h3><span id="turnTotal"></span></h3>
-            </div>
-          </div>
+        <div id="turnTotalStuff">
+          <h3>Total:</h3>
+          <h3><span id="turnTotal"></span></h3>
         </div>
       </div>
+    </div>
+    </div>
+    </div>
 
   </body>
 
