@@ -1,0 +1,58 @@
+#button {
+  background-color: rgb(82, 186, 179);
+  border-radius: 6px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-transform: uppercase;
+  width: 200px;
+  cursor: pointer;
+}
+
+#placeholder {
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  margin: 50px auto;
+  border: 1px solid orange;
+  border-radius: 80px;
+  font-size: 80px;
+}
+
+#button {
+  text-align: center;
+  margin-left: 200px;
+}
+
+.container1 {
+  text-align: center;
+}
+
+h3 {
+  margin-left: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.rotatified {
+  transform: rotate(360deg);
+}
+
+.roller {
+  border-style: outset;
+  border-width: 7px;
+  border-color: light blue;
+  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
