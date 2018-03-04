@@ -1,5 +1,5 @@
 #button {
-  background-color: rgb(82, 186, 179);
+  background-color: #800000;
   border-radius: 6px;
   border: none;
   color: rgb(255, 255, 255);
@@ -10,7 +10,7 @@
 }
 
 #button1 {
-  background-color: rgb(82, 186, 179);
+  background-color: #800000;
   border-radius: 6px;
   border: none;
   color: rgb(255, 255, 255);
@@ -35,7 +35,7 @@
   width: 200px;
   padding: 50px;
   margin: 50px auto;
-  border: 1px solid orange;
+  border: 5px solid #800000;
   border-radius: 80px;
   font-size: 80px;
 }
@@ -45,12 +45,17 @@
   width: 200px;
   padding: 50px;
   margin: 50px auto;
-  border: 1px solid orange;
+  border: 5px solid #800000;
   border-radius: 80px;
   font-size: 80px;
 }
 
 #button {
+  text-align: center;
+  margin-left: 200px;
+}
+
+#button1 {
   text-align: center;
   margin-left: 200px;
 }
