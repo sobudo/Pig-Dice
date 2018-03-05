@@ -4,28 +4,20 @@ A popular dice game where two players go up against each other or one player aga
 #### By Sandra Obudo
 
 ## Description
-Ping Pong is a simple numbers game where a user is prompted to input a number into a field and submit it using the submit button. The user then gets a result which consists of numbers from 1 up to the number the user inputted with the exception of numbers divisible by 3, 5 or both.
-
-For numbers divisible by 3 the output is ping
-For numbers divisible by 5 the output is pong
-For numbers divisible by 3 and 5 the output is pingpong
+A popular two player dice game where Player 1 rolls the dice and scores as many points as possible, which are added up as he/she goes along. If the player rolls a 1 his turn is over and he loses all points he accumulated that turn. The next player then has a turn. A player can stop his/her turn at any time by clicking 'hold' (you will retain any points you have accumulated up to then). The game passes from player to player. The first player to reach 100 wins.
 
 ## Specifications
 The program should do the following:
 
-Allow two players to play against each other by totaling their points after each roll.
+Allow two players to play against each other.
 
-If a player rolls the number 1Input : 2
-Output : [1, 2]
+After each roll, a players total number of points must be added up and displayed.
 
-Input : 10
-Output : [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11]
-The program should replace numbers divisible by 3 with ping and those by 5 with pong
+If a player rolls a 1, their total score must return to nil and the computer must inform them their turn is over.
 
-Input : 15
-Output : [ 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]
-The program should replace numbers divisible by both 3 and 5 with pingpong
+Allow the players to click the hold button and have their accumulated points stored.
 
+Inform the winning player that he has won when appropriate.
 
 ## Setup/Installation Requirements
 Requires internet connection
