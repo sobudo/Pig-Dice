@@ -1,5 +1,5 @@
 # Pig Dice
-A popular dice game where two players go up against each other or one player against the computer. Players take turns rolling the dice, the player who totals 100 points first wins the game.
+A popular dice game where two players go up against each other or one player against the computer. Players take turns rolling the dice, the player who totals 100 points first wins the game. https://sobudo.github.io/Pig-Dice/
 
 #### By Sandra Obudo
 
